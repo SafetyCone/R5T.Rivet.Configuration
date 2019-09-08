@@ -237,5 +237,13 @@ namespace R5T.Rivet.Configuration
         {
             Utilities.IsDevelopmentMachineResult = isDevelopmentMachine;
         }
+
+        public static string GetSecretsFilePath(string fileName)
+        {
+            var secretsDirectoryPath = Utilities.SecretsDirectoryPathValue;
+
+            var secretFilePath = PathUtilities.Combine(secretsDirectoryPath, fileName);
+            return secretFilePath;
+        }
     }
 }
