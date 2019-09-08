@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rivet.Organizational", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rivet.Dropbox", "..\..\R5T.Rivet.Dropbox\source\R5T.Rivet.Dropbox\R5T.Rivet.Dropbox.csproj", "{7FC17DFF-D287-4B76-BC03-DD73BD6C558E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Configuration", "..\..\R5T.NetStandard.Configuration\source\R5T.NetStandard.Configuration\R5T.NetStandard.Configuration.csproj", "{BBBCE1EA-3794-479A-97A7-746E471327CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +171,18 @@ Global
 		{7FC17DFF-D287-4B76-BC03-DD73BD6C558E}.Release|x64.Build.0 = Release|Any CPU
 		{7FC17DFF-D287-4B76-BC03-DD73BD6C558E}.Release|x86.ActiveCfg = Release|Any CPU
 		{7FC17DFF-D287-4B76-BC03-DD73BD6C558E}.Release|x86.Build.0 = Release|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Release|x64.Build.0 = Release|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBBCE1EA-3794-479A-97A7-746E471327CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +196,7 @@ Global
 		{63D374EC-788C-4420-A07F-3F2193C3D8A0} = {6BA8F6C3-B008-4584-83E3-375200278402}
 		{56778412-3757-433A-ABA1-76CDDBB9B11E} = {6BA8F6C3-B008-4584-83E3-375200278402}
 		{7FC17DFF-D287-4B76-BC03-DD73BD6C558E} = {6BA8F6C3-B008-4584-83E3-375200278402}
+		{BBBCE1EA-3794-479A-97A7-746E471327CE} = {6BA8F6C3-B008-4584-83E3-375200278402}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44AE2C49-B64D-418F-8280-0DB946C256B7}
