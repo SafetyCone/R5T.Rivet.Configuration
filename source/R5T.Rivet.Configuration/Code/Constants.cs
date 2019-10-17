@@ -10,7 +10,7 @@ namespace R5T.Rivet.Configuration
     {
         public const string SecretsDirectoryNameValue = "Secrets";
         public static readonly DirectoryName SecretsDirectoryName = Constants.SecretsDirectoryNameValue.AsDirectoryName();
-        public static string DefaultDevelopmentMachinesListTextFileNameValue = "Development Machines.txt";
+        public const string DefaultDevelopmentMachinesListTextFileNameValue = "Development Machines.txt";
         public static readonly FileName DefaultDevelopmentMachinesListTextFileName = Constants.DefaultDevelopmentMachinesListTextFileNameValue.AsFileName();
     }
 }
