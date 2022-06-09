@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Dropbox.Base\source\R5T.Dropbox.Base\R5T.Dropbox.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.NetStandard.IO.Paths.Base\source\R5T.NetStandard.IO.Paths.Base\R5T.NetStandard.IO.Paths.Base.csproj" />
@@ -7,10 +6,10 @@
     <ProjectReference Include="..\..\..\R5T.Rivet.Organizational\source\R5T.Rivet.Organizational\R5T.Rivet.Organizational.csproj" />
     <ProjectReference Include="..\R5T.Rivet.Configuration\R5T.Rivet.Configuration.csproj" />
   </ItemGroup>
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
   </PropertyGroup>
-
 </Project>
