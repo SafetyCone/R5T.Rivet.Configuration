@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Dropbox.Base\source\R5T.Dropbox.Base\R5T.Dropbox.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.NetStandard.IO.Paths.Base\source\R5T.NetStandard.IO.Paths.Base\R5T.NetStandard.IO.Paths.Base.csproj" />
